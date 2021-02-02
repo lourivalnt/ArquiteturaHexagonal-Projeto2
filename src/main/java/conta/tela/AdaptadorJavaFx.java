@@ -1,6 +1,6 @@
-package tela;
+package conta.tela;
 
-import dsv.Build2;
+import conta.dsv.Build2;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import org.springframework.context.ApplicationContext;
