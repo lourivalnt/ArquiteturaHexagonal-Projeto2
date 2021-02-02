@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 
 import static java.util.Objects.isNull;
 
-// Responsável por desenhar a tela de transferencia com a tecnologia javafx.
+// Responsável por desenhar a tela de transferencia com a tecnologia javafx
 @Named
 public class TransferenciaFrm {
 
