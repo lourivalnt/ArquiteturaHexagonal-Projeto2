@@ -21,7 +21,7 @@ import javax.sql.DataSource;
         // core do sistema
         "conta.sistema",
         // adptadores real
-        "conta.servicos.respositorio"})
+        "conta.servicos.repositorio"})
 public class Build3 {
 
     // Build 3 - Adaptador JavaFX -> Sistema <- Adaptadores Real em Homologação
