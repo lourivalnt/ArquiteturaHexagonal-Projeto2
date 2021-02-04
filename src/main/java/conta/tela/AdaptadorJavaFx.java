@@ -16,7 +16,6 @@ public class AdaptadorJavaFx extends Application {
         System.out.println("iniciando spring..");
         //spring = new AnnotationConfigApplicationContext(Build2.class);
         spring = new AnnotationConfigApplicationContext(Build3.class);
-//        spring = new AnnotationConfigApplicationContext(Build4.class);
     }
 
     @Override
