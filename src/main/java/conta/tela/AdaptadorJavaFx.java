@@ -1,6 +1,6 @@
 package conta.tela;
 
-import conta.dsv.Build2;
+import conta.hml.Build3;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import org.springframework.context.ApplicationContext;
@@ -14,12 +14,14 @@ public class AdaptadorJavaFx extends Application {
     @Override
     public void init() {
         System.out.println("iniciando spring..");
-        spring = new AnnotationConfigApplicationContext(Build2.class);
+        //spring = new AnnotationConfigApplicationContext(Build2.class);
+        spring = new AnnotationConfigApplicationContext(Build3.class);
+//        spring = new AnnotationConfigApplicationContext(Build4.class);
     }
 
     @Override
-    public void start(Stage stage) throws Exception {
-        var form = spring.getBean(conta.tela.TransferenciaFrm.class);
+    public void start(Stage stage) {
+        var form = spring.getBean(TransferenciaFrm.class);
         form.mostrar(stage);
     }
 
